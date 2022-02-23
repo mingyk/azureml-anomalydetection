@@ -1,0 +1,17 @@
+name: SampleEnv
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - sklearn
+    - anomatools
+    - dtaidistance
+    - azureml-dataprep
+    - azureml-mlflow
+    - mlflow
+    - matplotlib
+    - seaborn
